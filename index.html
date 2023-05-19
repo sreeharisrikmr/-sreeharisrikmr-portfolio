@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHari-Portfolio</title>
+    <link rel="icon" href="images/hariimage.png">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/sreeharisrikmr-logo-Lblue.png" class="logo" alt="shari-logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <br> Sreehari Srikmr</h1>
+                <br>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </div>
+<!-- --------------------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/hariimage.png" alt="sreehari srikmr-profilepic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-heading" style="margin-bottom: 15px;">About Me</h1>
+                    <p>An Engineer who loves to build things for the web. I am very passionate about building things, 
+                        give a life to concepts / ideas and make it accessible over the web.
+                        I love spending time coding and encountering new challenges. 
+                        I'm highly adaptable to new challenges and projects.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span></li>
+                            <li>Html</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                            <li><span>Other</span></li>
+                            <li>C</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internships</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br> MEARN Full Stack Web development </li>
+                            <li><span>2022</span><br> BE in Mechanical Engineering</li>
+                            <li></li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------services---------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-heading">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code fa-beat"></i>
+                    <h2>Front-end Web Development</h2>
+                    <p>Our front-end development team understands your business objectives and creates top-notch solutions that meet your needs leveraging the best front-end development technologies and practices.</p>
+                    <a href="">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code fa-beat"></i>
+                    <h2>Back-end Web Development</h2>
+                    <p>If you need backend services,we can help you build scalable APIs using NodeJS, Hopefully, our list of backend development services will help you find the right solution.</p>
+                    <a href="">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-business-time fa-beat"></i>
+                    <h2>Business solutions</h2>
+                    <p>We are passionate about helping entrepreneurs make well informed decisions about their startups and new ventures using our sector neutral expertise.</p>
+                    <br><br>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------works---------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-heading">Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/coffe-website-img.png" alt="">
+                    <div class="layer">
+                        <h3>Coffee-website</h3>
+                        <p>Shopping website for different varieties of coffee products</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/sachin-portfolio-img.png" alt="">
+                    <div class="layer">
+                        <h3>Sachin-Portfolio website</h3>
+                        <p>sachin portfolio</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Travel-guideimg.png" alt="">
+                    <div class="layer">
+                        <h3>Travel-Blog Website</h3>
+                        <p>a personal Travel blog website</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+
+    <!-- --------------------------contact---------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-heading">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sreeharisrikmr@outlook.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+918848995297</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sreeharisrikmr?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                       
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email required">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © sreeharisrikmr</p>
+        </div>
+    </div>
+
+
+
+
+<!-- -----------------------script------------------------------------------------------ -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }  
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+
+</body>
+</html>
+
+
+
